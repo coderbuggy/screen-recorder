@@ -2,6 +2,9 @@
 
 You can record your screen, thats all :)
 
+## Try it 
+
+https://comforting-salamander-e96439.netlify.app/
 
 ## Contributing
 
