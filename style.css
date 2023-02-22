@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+
+body {
+    font-family: 'Cairo', sans-serif;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    background-color: #eeeeee;
+  }
+
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.buttons button {
+    margin: 1rem;
+}
+
+#download{
+   text-decoration: none !important;
+   color: white;
+}
+
+#videoSection {
+    width: 640px;
+    height: 480px;
+}
+
+.recording-circle {
+    background-color: red;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    animation: ease pulse 2s infinite;
+    margin-right: 0.25em;
+  }
+  
+  .recording-text {
+    font-size: 1rem;
+    color: #000;
+  }
+  
+  @keyframes pulse {
+    0% {
+      background-color: red;
+    }
+    50% {
+      background-color: #f06c6c;
+    }
+    100% {
+      background-color: red;
+    }
+  }
+
+  .hide{
+    display: none !important;
+  }
+  
+  footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer p a{
+    color: #000;
+    text-decoration: none;
+  }
+
+  .head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: baseline;
+    flex-flow: row;
+  } 
+
+  #logo{
+    margin-right: 3px;
+  }
